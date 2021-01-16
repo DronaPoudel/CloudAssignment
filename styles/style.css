@@ -1,0 +1,296 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  margin: 0 16%;
+}
+
+.header-content {
+  height: 40vh;
+  background: linear-gradient(40deg, rgba(11, 10, 11, 0.8), rgba(46, 48, 55, 0.3)), url(../Assets/images/labelling-workers.jpg) no-repeat;
+  background-position: top;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-content h2 {
+  margin-top: 0;
+  color: #fff;
+}
+
+.features .grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (250px)[auto-fill];
+      grid-template-columns: repeat(auto-fill, 250px);
+  row-gap: 18px;
+  margin: 60px 0;
+}
+
+.features .grid-container .feature-item svg {
+  fill: #0f79cf;
+  width: 100px;
+}
+
+.features .grid-container .feature-item h4 {
+  font-weight: bolder;
+}
+
+.features .grid-container .feature-item p {
+  color: #3d566f;
+  text-align: center;
+}
+
+.features .grid-container .feature-item:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: width 2s ease-in 1s;
+  transition: width 2s ease-in 1s;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.features .grid-container .feature-item {
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-form input[type="submit"] {
+  border: none;
+  background-color: transparent;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form input[type="tel"], .contact-form textarea {
+  width: 100%;
+}
+
+.contact-form input[value="Start working with us"] {
+  color: #fff;
+}
+
+.contact-form input:hover, .contact-form textarea:hover {
+  border: 1px solid #0f79cf;
+}
+
+.contact-form .cloud-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-form .cloud-btn button {
+  border-radius: 20px;
+  padding: 20px 40px;
+  -webkit-text-emphasis-color: #0f79cf;
+          text-emphasis-color: #0f79cf;
+  border: 2px solid #0f79cf;
+}
+
+.contact-form .cloud-btn button input[value="Start working with us"] {
+  color: #0f79cf;
+  font-weight: bold;
+}
+
+.contact-form .cloud-btn button:hover {
+  background-color: #0f79cf;
+  color: #fff;
+  border: none;
+}
+
+.contact-form .cloud-btn button:hover input[value="Start working with us"] {
+  color: #fff;
+}
+
+.footer-distributed {
+  background: #666;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px 'Open Sans', cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span {
+  color: lightseagreen;
+}
+
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+.footer-distributed .footer-company-name {
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight: 300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+  background-color: #0f79cf;
+}
+
+@media (max-width: 880px) {
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .footer-distributed .footer-left i,
+  .footer-distributed .footer-center i,
+  .footer-distributed .footer-right i {
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
